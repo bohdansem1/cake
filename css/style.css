@@ -1063,6 +1063,20 @@ padding: 0 20px;
         width: 104px;
         height: 139px;
     }
+    .leaf__card1 {
+        top: 705px;
+        left: 330px;
+        height: 100px;
+    }
+    .berry__mob1 {
+        position: relative;
+        width: 152.043px;
+        height: 91.438px;
+        transform: rotate(3deg);
+        filter: blur(4.5px);
+        bottom: 440px;
+        left: 30px;
+    }
     .cards__intro_txt {
         font-size: 20px;
     }
