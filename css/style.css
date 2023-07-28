@@ -1204,6 +1204,7 @@ padding: 0 20px;
         top: 10px;
         left: 280px;
         z-index: 2;
+        
         filter: blur(3.5px);
     }
     .feedback{
