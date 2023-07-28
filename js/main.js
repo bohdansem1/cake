@@ -18,8 +18,11 @@ nextBtn.addEventListener('click', () => {
 
 function updateSliderPosition() {
     if (slideIndex === 0 || slideIndex === 1){
-  slider.style.transform = `translateX(-${slideIndex * slideWidth}px)`;}
- 
+      if (window.screen.width <= 450 ){
+        slider.style.transform = `translateX(-${slideIndex * 357}px)`;
+      } else {
+        slider.style.transform = `translateX(-${slideIndex * slideWidth}px)`;}
+      }
   else if (slideIndex === 2) {
     if (window.screen.width <= 450 ){
       slider.style.transform = `translateX(357px)`;
